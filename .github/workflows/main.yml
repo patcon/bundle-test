@@ -21,6 +21,6 @@ jobs:
           node-version: 14.4.0
 
       - run: |
-        npm install
-        npm run build
-        npm test
+          npm install
+          npm run build
+          npm test
