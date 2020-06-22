@@ -7,7 +7,7 @@ jobs:
   bundlesize:
     runs-on: ubuntu-latest
     env:
-      BUNDLESIZE_GITHUB_TOKEN: 2c82a5661062648635f293dbe33667394c089b62
+      BUNDLESIZE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v2.3.1
 
