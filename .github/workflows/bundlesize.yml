@@ -1,7 +1,5 @@
 on:
   push:
-  pull_request:
-    types: [synchronize, opened]
 
 jobs:
   bundlesize:
