@@ -17,14 +17,17 @@
     }
   ],
   "bundlewatch": {
-    "files": [{
-      "path": "./dist/build.js",
-      "maxSize": "40 kB"
-    }]
+    "files": [
+      {
+        "path": "./dist/build.js",
+        "maxSize": "40 kB"
+      }
+    ]
   },
   "dependencies": {
     "bundlesize": "^0.18.0",
-    "vue": "^2.5.11"
+    "vue": "^2.5.11",
+    "vue-material-design-icons": "^4.7.1"
   },
   "browserslist": [
     "> 1%",
