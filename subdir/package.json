@@ -18,7 +18,7 @@
   ],
   "bundlewatch": {
     "ci": {
-      "trackBranches": ["develop"]
+      "repoBranchBase": "develop"
     },
     "files": [
       {
