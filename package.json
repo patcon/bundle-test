@@ -13,14 +13,14 @@
   "bundlesize": [
     {
       "path": "./dist/build.js",
-      "maxSize": "40 kB"
+      "maxSize": "50 kB"
     }
   ],
   "bundlewatch": {
     "files": [
       {
         "path": "./dist/build.js",
-        "maxSize": "40 kB"
+        "maxSize": "50 kB"
       }
     ]
   },
