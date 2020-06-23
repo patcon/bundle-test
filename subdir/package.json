@@ -17,6 +17,9 @@
     }
   ],
   "bundlewatch": {
+    "ci": {
+      "trackBranches": ["develop"]
+    },
     "files": [
       {
         "path": "./dist/build.js",
